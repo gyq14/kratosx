@@ -56,9 +56,9 @@ kratosx cli 的主要功能是进行项目创建、proto 代码生成（grpc、h
 
 执行安装命令：
 ```bash
-go install github.com/limes-cloud/kratosx/cmd/kratosx@latest 
-go install github.com/limes-cloud/kratosx/cmd/protoc-gen-go-httpx@latest 
-go install github.com/limes-cloud/kratosx/cmd/protoc-gen-go-errorsx@latest 
+go install github.com/gyq14/kratosx/cmd/kratosx@latest 
+go install github.com/gyq14/kratosx/kratosx/cmd/protoc-gen-go-httpx@latest 
+go install github.com/gyq14/kratosx/kratosx/cmd/protoc-gen-go-errorsx@latest 
 go install google.golang.org/protobuf/cmd/protoc-gen-go@latest 
 go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest 
 go install github.com/google/gnostic/cmd/protoc-gen-openapi@latest 
@@ -137,9 +137,9 @@ kratosx [子命令] [参数]
 **方式二：全局安装使用**
 推荐通过 go install 命令将 kratosx 及相关插件安装到 GOPATH/bin 或 PATH 路径下，实现全局调用：
 ```bash
-go install github.com/limes-cloud/kratosx/cmd/kratosx@latest
-go install github.com/limes-cloud/kratosx/cmd/protoc-gen-go-httpx@latest
-go install github.com/limes-cloud/kratosx/cmd/protoc-gen-go-errorsx@latest
+go install github.com/gyq14/kratosx/cmd/kratosx@latest
+go install github.com/gyq14/kratosx/cmd/protoc-gen-go-httpx@latest
+go install github.com/gyq14/kratosx/cmd/protoc-gen-go-errorsx@latest
 
 kratosx [子命令] [参数]
 ```
