@@ -1,4 +1,4 @@
 package kratosx
 
 // Release is the current resource version.
-const Release = "v1.0.5"
+const Release = "v0.0.1"
