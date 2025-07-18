@@ -4,7 +4,7 @@ import (
 	"context"
 	"github.com/go-kratos/kratos/v2/middleware"
 	"github.com/go-kratos/kratos/v2/transport/http"
-	ip2 "kratosx/library/ip"
+	ip2 "github.com/gyq14/kratosx/library/ip"
 	"google.golang.org/grpc/peer"
 	"strings"
 )

@@ -6,7 +6,7 @@ import (
 	thttp "github.com/go-kratos/kratos/v2/transport/http"
 	"github.com/gorilla/handlers"
 
-	ec "kratosx/config"
+	ec "github.com/gyq14/kratosx/config"
 )
 
 func Cors(conf *ec.Cors) thttp.ServerOption {

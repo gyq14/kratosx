@@ -5,8 +5,8 @@ import (
 	"github.com/go-kratos/kratos/v2/middleware/metadata"
 	"github.com/go-kratos/kratos/v2/middleware/validate"
 
-	"kratosx/config"
-	"kratosx/library/signature"
+	"github.com/gyq14/kratosx/config"
+	"github.com/gyq14/kratosx/library/signature"
 )
 
 func New(conf config.Config) []middleware.Middleware {

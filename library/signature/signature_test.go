@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"kratosx/config"
+	"github.com/gyq14/kratosx/config"
 )
 
 func TestSign(t *testing.T) {

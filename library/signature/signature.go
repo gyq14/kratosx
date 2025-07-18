@@ -20,7 +20,7 @@ import (
 	"github.com/go-kratos/kratos/v2/transport/http"
 	json "github.com/json-iterator/go"
 
-	"kratosx/config"
+	"github.com/gyq14/kratosx/config"
 )
 
 const (

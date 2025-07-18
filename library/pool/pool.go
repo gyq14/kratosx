@@ -9,8 +9,8 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/panjf2000/ants/v2"
 
-	"kratosx/config"
-	"kratosx/library/logger"
+	"github.com/gyq14/kratosx/config"
+	"github.com/gyq14/kratosx/library/logger"
 )
 
 type Runner interface {

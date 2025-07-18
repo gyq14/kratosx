@@ -11,13 +11,13 @@ import (
 	"github.com/go-kratos/kratos/v2/transport"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"kratosx/config"
-	"kratosx/library"
-	"kratosx/library/env"
-	"kratosx/library/logger"
-	"kratosx/library/pprof"
-	"kratosx/library/registry"
-	"kratosx/library/stop"
+	"github.com/gyq14/kratosx/config"
+	"github.com/gyq14/kratosx/library"
+	"github.com/gyq14/kratosx/library/env"
+	"github.com/gyq14/kratosx/library/logger"
+	"github.com/gyq14/kratosx/library/pprof"
+	"github.com/gyq14/kratosx/library/registry"
+	"github.com/gyq14/kratosx/library/stop"
 )
 
 var (

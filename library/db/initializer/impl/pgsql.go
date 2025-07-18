@@ -3,7 +3,7 @@ package impl
 import (
 	"bufio"
 	"errors"
-	"kratosx/library/db/model"
+	"github.com/gyq14/kratosx/library/db/model"
 	"gorm.io/gorm"
 	"os"
 	"strings"

@@ -1,8 +1,8 @@
 package initializer
 
 import (
-	"kratosx/library/db/initializer/impl"
-	"kratosx/library/db/model"
+	"github.com/gyq14/kratosx/library/db/initializer/impl"
+	"github.com/gyq14/kratosx/library/db/model"
 	"gorm.io/gorm"
 )
 

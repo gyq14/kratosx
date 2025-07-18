@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/go-kratos/kratos/v2/log"
-	"kratosx/config"
+	"github.com/gyq14/kratosx/config"
 )
 
 type Email interface {

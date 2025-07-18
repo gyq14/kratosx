@@ -9,7 +9,7 @@ import (
 
 	"gopkg.in/gomail.v2"
 
-	ec "kratosx/config"
+	ec "github.com/gyq14/kratosx/config"
 )
 
 type Sender interface {

@@ -2,7 +2,7 @@ package impl
 
 import (
 	"errors"
-	"kratosx/library/db/model"
+	"github.com/gyq14/kratosx/library/db/model"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 	"sync"

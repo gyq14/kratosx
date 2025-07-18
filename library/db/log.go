@@ -9,7 +9,7 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	"gorm.io/gorm/logger"
 
-	libLogger "kratosx/library/logger"
+	libLogger "github.com/gyq14/kratosx/library/logger"
 )
 
 // zap 适配gorm 日志

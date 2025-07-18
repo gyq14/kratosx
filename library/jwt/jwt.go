@@ -13,8 +13,8 @@ import (
 	jwtv5 "github.com/golang-jwt/jwt/v5"
 	json "github.com/json-iterator/go"
 
-	"kratosx/config"
-	"kratosx/library/redis"
+	"github.com/gyq14/kratosx/config"
+	"github.com/gyq14/kratosx/library/redis"
 )
 
 type Jwt interface {

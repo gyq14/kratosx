@@ -12,8 +12,8 @@ import (
 	"github.com/go-kratos/kratos/v2/transport/http"
 	jwtv5 "github.com/golang-jwt/jwt/v5"
 
-	"kratosx/config"
-	"kratosx/library/jwt"
+	"github.com/gyq14/kratosx/config"
+	"github.com/gyq14/kratosx/library/jwt"
 )
 
 // Jwt jwt验证

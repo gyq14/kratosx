@@ -14,9 +14,9 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/mojocn/base64Captcha"
 
-	"kratosx/config"
-	"kratosx/library/email"
-	"kratosx/library/redis"
+	"github.com/gyq14/kratosx/config"
+	"github.com/gyq14/kratosx/library/email"
+	"github.com/gyq14/kratosx/library/redis"
 )
 
 type Captcha interface {

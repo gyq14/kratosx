@@ -1,7 +1,7 @@
 package stop
 
 import (
-	"kratosx/library/logger"
+	"github.com/gyq14/kratosx/library/logger"
 )
 
 type Stop interface {

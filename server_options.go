@@ -7,8 +7,8 @@ import (
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 	"github.com/go-kratos/kratos/v2/transport/http"
 
-	"kratosx/config"
-	"kratosx/middleware"
+	"github.com/gyq14/kratosx/config"
+	"github.com/gyq14/kratosx/middleware"
 )
 
 func serverOptions(conf config.Config, midOpts []kmid.Middleware) ([]grpc.ServerOption, []http.ServerOption) {

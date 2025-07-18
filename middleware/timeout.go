@@ -9,7 +9,7 @@ import (
 	"github.com/go-kratos/kratos/v2/transport"
 	"github.com/go-kratos/kratos/v2/transport/http"
 
-	ec "kratosx/config"
+	ec "github.com/gyq14/kratosx/config"
 )
 
 func Timeout(gs *ec.GrpcService, hs *ec.HttpService) middleware.Middleware {

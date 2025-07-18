@@ -9,7 +9,7 @@ import (
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	"kratosx/config"
+	"github.com/gyq14/kratosx/config"
 )
 
 type LogField map[string]any

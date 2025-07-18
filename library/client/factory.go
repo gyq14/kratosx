@@ -7,7 +7,7 @@ import (
 	"github.com/go-kratos/kratos/v2/selector"
 	"github.com/go-kratos/kratos/v2/selector/p2c"
 
-	"kratosx/config"
+	"github.com/gyq14/kratosx/config"
 )
 
 // Factory is returns service client.

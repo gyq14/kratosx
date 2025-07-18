@@ -7,7 +7,7 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	goRedis "github.com/go-redis/redis/v8"
 
-	"kratosx/config"
+	"github.com/gyq14/kratosx/config"
 )
 
 type Redis interface {

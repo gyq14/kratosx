@@ -6,7 +6,7 @@ import (
 
 	thttp "github.com/go-kratos/kratos/v2/transport/http"
 
-	"kratosx/config"
+	"github.com/gyq14/kratosx/config"
 )
 
 func PprofServer(conf *config.Pprof, srv *thttp.Server) {

@@ -8,7 +8,7 @@ import (
 	"github.com/go-resty/resty/v2"
 	json "github.com/json-iterator/go"
 
-	"kratosx/config"
+	"github.com/gyq14/kratosx/config"
 )
 
 type request struct {

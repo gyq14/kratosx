@@ -7,9 +7,9 @@ import (
 	midmetadata "github.com/go-kratos/kratos/v2/middleware/metadata"
 	"github.com/go-kratos/kratos/v2/middleware/tracing"
 
-	"kratosx/config"
-	"kratosx/library/logger"
-	"kratosx/library/signature"
+	"github.com/gyq14/kratosx/config"
+	"github.com/gyq14/kratosx/library/logger"
+	"github.com/gyq14/kratosx/library/signature"
 )
 
 func Middlewares(conf *config.Client) []middleware.Middleware {

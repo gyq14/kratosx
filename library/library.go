@@ -1,21 +1,21 @@
 package library
 
 import (
-	"kratosx/config"
-	"kratosx/library/authentication"
-	"kratosx/library/captcha"
-	"kratosx/library/client"
-	"kratosx/library/db"
-	"kratosx/library/email"
-	"kratosx/library/jwt"
-	"kratosx/library/loader"
-	"kratosx/library/logger"
-	"kratosx/library/logging"
-	"kratosx/library/pool"
-	"kratosx/library/prometheus"
-	"kratosx/library/redis"
-	"kratosx/library/signature"
-	"kratosx/library/stop"
+	"github.com/gyq14/kratosx/config"
+	"github.com/gyq14/kratosx/library/authentication"
+	"github.com/gyq14/kratosx/library/captcha"
+	"github.com/gyq14/kratosx/library/client"
+	"github.com/gyq14/kratosx/library/db"
+	"github.com/gyq14/kratosx/library/email"
+	"github.com/gyq14/kratosx/library/jwt"
+	"github.com/gyq14/kratosx/library/loader"
+	"github.com/gyq14/kratosx/library/logger"
+	"github.com/gyq14/kratosx/library/logging"
+	"github.com/gyq14/kratosx/library/pool"
+	"github.com/gyq14/kratosx/library/prometheus"
+	"github.com/gyq14/kratosx/library/redis"
+	"github.com/gyq14/kratosx/library/signature"
+	"github.com/gyq14/kratosx/library/stop"
 )
 
 func Init(conf config.Config, fs logger.LogField) {

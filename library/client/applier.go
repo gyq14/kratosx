@@ -6,7 +6,7 @@ import (
 	"github.com/go-kratos/kratos/v2/registry"
 	"github.com/go-kratos/kratos/v2/selector"
 
-	"kratosx/config"
+	"github.com/gyq14/kratosx/config"
 )
 
 type nodeApplier struct {

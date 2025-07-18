@@ -3,7 +3,7 @@ package middleware
 import (
 	"github.com/go-kratos/kratos/v2/middleware"
 	"github.com/go-kratos/kratos/v2/middleware/metrics"
-	"kratosx/library/env"
+	"github.com/gyq14/kratosx/library/env"
 	"go.opentelemetry.io/otel"
 )
 

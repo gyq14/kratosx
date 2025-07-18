@@ -6,7 +6,7 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"kratosx/config"
+	"github.com/gyq14/kratosx/config"
 )
 
 var (

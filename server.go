@@ -11,9 +11,9 @@ import (
 	"github.com/go-kratos/kratos/v2/transport/http"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"kratosx/config"
-	"kratosx/library/cors"
-	"kratosx/library/httpencoder"
+	"github.com/gyq14/kratosx/config"
+	"github.com/gyq14/kratosx/library/cors"
+	"github.com/gyq14/kratosx/library/httpencoder"
 )
 
 func grpcServer(c *config.GrpcService, count int, so []grpc.ServerOption) *grpc.Server {

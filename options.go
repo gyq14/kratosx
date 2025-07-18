@@ -7,8 +7,8 @@ import (
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 	"github.com/go-kratos/kratos/v2/transport/http"
 
-	"kratosx/config"
-	"kratosx/library/logger"
+	"github.com/gyq14/kratosx/config"
+	"github.com/gyq14/kratosx/library/logger"
 )
 
 type Option func(o *options)

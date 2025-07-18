@@ -17,9 +17,9 @@ import (
 	"github.com/go-kratos/kratos/v2/metadata"
 	"github.com/go-redis/redis/v8"
 
-	"kratosx/config"
-	"kratosx/library/db"
-	rd "kratosx/library/redis"
+	"github.com/gyq14/kratosx/config"
+	"github.com/gyq14/kratosx/library/db"
+	rd "github.com/gyq14/kratosx/library/redis"
 )
 
 type Authentication interface {

@@ -8,9 +8,9 @@ import (
 	"github.com/go-kratos/kratos/v2/middleware/selector"
 	"github.com/go-kratos/kratos/v2/transport/http"
 
-	ec "kratosx/config"
-	"kratosx/library/logger"
-	lg "kratosx/library/logging"
+	ec "github.com/gyq14/kratosx/config"
+	"github.com/gyq14/kratosx/library/logger"
+	lg "github.com/gyq14/kratosx/library/logging"
 )
 
 func Logging(conf *ec.Logging) middleware.Middleware {

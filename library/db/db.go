@@ -2,7 +2,7 @@ package db
 
 import (
 	"fmt"
-	"kratosx/library/db/model"
+	"github.com/gyq14/kratosx/library/db/model"
 	"sync"
 
 	"github.com/go-kratos/kratos/v2/log"
@@ -14,9 +14,9 @@ import (
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"
 
-	"kratosx/config"
-	gte "kratosx/library/db/gormtranserror"
-	"kratosx/library/db/initializer"
+	"github.com/gyq14/kratosx/config"
+	gte "github.com/gyq14/kratosx/library/db/gormtranserror"
+	"github.com/gyq14/kratosx/library/db/initializer"
 )
 
 type DB interface {

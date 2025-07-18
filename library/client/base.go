@@ -6,8 +6,8 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	kratosRegistry "github.com/go-kratos/kratos/v2/registry"
 
-	"kratosx/config"
-	"kratosx/library/registry"
+	"github.com/gyq14/kratosx/config"
+	"github.com/gyq14/kratosx/library/registry"
 )
 
 var ins = make(map[string]Client)
