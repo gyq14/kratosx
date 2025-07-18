@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"kratosx/cmd/kratosx/internal/base"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/base"
 )
 
 // TestCmdNew tests the `kratos new` command.

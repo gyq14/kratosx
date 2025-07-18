@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
-	"kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/types"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/types"
 )
 
 type sql struct {

@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
-	"kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/types"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/types"
 )
 
 func TestSQL(t *testing.T) {

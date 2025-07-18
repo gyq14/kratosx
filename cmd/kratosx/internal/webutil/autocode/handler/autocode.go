@@ -3,8 +3,8 @@ package handler
 import (
 	"github.com/go-kratos/kratos/v2/transport/http"
 
-	"kratosx/cmd/kratosx/internal/webutil/autocode/service"
-	"kratosx/cmd/kratosx/internal/webutil/autocode/types"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/webutil/autocode/service"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/webutil/autocode/types"
 )
 
 // ListModel 获取全部的数据库模型

@@ -10,7 +10,7 @@ import (
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/proto"
 
-	"kratosx/cmd/protoc-gen-go-errorsx/errors"
+	"github.com/gyq14/kratosx/cmd/protoc-gen-go-errorsx/errors"
 )
 
 const (

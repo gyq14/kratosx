@@ -1,4 +1,4 @@
-module kratosx/cmd/protoc-gen-go-errorsx
+module github.com/gyq14/kratosx/cmd/protoc-gen-go-errorsx
 
 go 1.19
 

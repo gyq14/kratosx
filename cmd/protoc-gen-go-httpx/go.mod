@@ -1,4 +1,4 @@
-module kratosx/cmd/protoc-gen-go-httpx
+module github.com/gyq14/kratosx/cmd/protoc-gen-go-httpx
 
 go 1.19
 

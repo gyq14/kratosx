@@ -3,9 +3,9 @@ package gocode
 import (
 	"bytes"
 	"fmt"
-	"kratosx/cmd/kratosx/internal/webutil/autocode/pkg"
-	"kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
-	"kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/types"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/webutil/autocode/pkg"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/types"
 	"go/ast"
 	"go/parser"
 	"go/printer"

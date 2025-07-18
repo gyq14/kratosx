@@ -7,7 +7,7 @@ import (
 	"github.com/go-kratos/kratos/v2/transport/http"
 	"github.com/spf13/cobra"
 
-	"kratosx/cmd/kratosx/internal/webutil/router"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/webutil/router"
 )
 
 var CmdWebUtil = &cobra.Command{

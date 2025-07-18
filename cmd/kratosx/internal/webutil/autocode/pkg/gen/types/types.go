@@ -3,7 +3,7 @@ package types
 import (
 	"strings"
 
-	"kratosx/cmd/kratosx/internal/webutil/autocode/pkg"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/webutil/autocode/pkg"
 )
 
 const (

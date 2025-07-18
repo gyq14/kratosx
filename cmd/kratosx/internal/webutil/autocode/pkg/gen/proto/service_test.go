@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
 )
 
 func TestServer(t *testing.T) {

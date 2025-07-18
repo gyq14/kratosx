@@ -1,9 +1,9 @@
 package proto
 
 import (
-	"kratosx/cmd/kratosx/internal/proto/add"
-	"kratosx/cmd/kratosx/internal/proto/client"
-	"kratosx/cmd/kratosx/internal/proto/server"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/proto/add"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/proto/client"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/proto/server"
 	"github.com/spf13/cobra"
 )
 

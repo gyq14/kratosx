@@ -4,7 +4,7 @@ import (
     "fmt"
 	{{if .IsTree}} "errors" {{end}}
 
-	"github.com/limes-cloud/kratosx"
+	"github.com/gyq14/kratosx"
 	"google.golang.org/protobuf/proto"
 
 	"{{.Module}}/internal/domain/entity"

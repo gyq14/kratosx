@@ -8,7 +8,7 @@ import (
 
 	proto3 "github.com/emicklei/proto"
 
-	"kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
 )
 
 type Ts struct {

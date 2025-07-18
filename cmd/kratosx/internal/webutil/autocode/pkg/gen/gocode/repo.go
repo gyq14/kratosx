@@ -11,9 +11,9 @@ import (
 	"strings"
 	"text/template"
 
-	"kratosx/cmd/kratosx/internal/webutil/autocode/pkg"
-	"kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
-	"kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/types"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/webutil/autocode/pkg"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen/types"
 )
 
 type Repo struct {

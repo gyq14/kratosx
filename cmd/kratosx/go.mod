@@ -1,4 +1,4 @@
-module kratosx/cmd/kratosx
+module github.com/gyq14/kratosx/cmd/kratosx
 
 go 1.21.1
 

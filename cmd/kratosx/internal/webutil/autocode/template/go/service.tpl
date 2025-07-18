@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/limes-cloud/kratosx"
-    {{if .IsTree}}"github.com/limes-cloud/kratosx/pkg/tree"{{end}}
+	"github.com/gyq14/kratosx"
+    {{if .IsTree}}"github.com/gyq14/kratosx/pkg/tree"{{end}}
 	"{{.Module}}/api/{{.Server}}/errors"
 	"{{.Module}}/internal/conf"
 	"{{.Module}}/internal/types"

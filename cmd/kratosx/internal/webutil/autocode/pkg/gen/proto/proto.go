@@ -1,6 +1,6 @@
 package proto
 
-import "kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
+import "github.com/gyq14/kratosx/cmd/kratosx/internal/webutil/autocode/pkg/gen"
 
 type Proto struct {
 	*Error

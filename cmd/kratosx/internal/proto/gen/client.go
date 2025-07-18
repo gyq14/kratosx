@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"kratosx/cmd/kratosx/internal/base"
+	"github.com/gyq14/kratosx/cmd/kratosx/internal/base"
 	"github.com/spf13/cobra"
 )
 

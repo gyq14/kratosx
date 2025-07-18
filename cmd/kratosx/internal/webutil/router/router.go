@@ -3,7 +3,7 @@ package router
 import (
 	"github.com/go-kratos/kratos/v2/transport/http"
 
-	autocode "kratosx/cmd/kratosx/internal/webutil/autocode/router"
+	autocode "github.com/gyq14/kratosx/cmd/kratosx/internal/webutil/autocode/router"
 )
 
 func NewRouter(srv *http.Server) {
