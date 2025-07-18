@@ -54,10 +54,8 @@ func KratosMod() string {
 		cachePath = filepath.Join(gopath, "pkg", "mod")
 	}
 	if path, err := ModuleVersion("github.com/go-kratos/kratos/v2"); err == nil {
-		// $GOPATH/pkg/mod/github.com/limes-cloud/kratos@v2
 		return filepath.Join(cachePath, path)
 	}
-	// $GOPATH/src/github.com/limes-cloud/kratos
 	return filepath.Join(gopath, "src", "github.com", "go-kratos", "kratos")
 }
 
@@ -79,7 +77,7 @@ func KratosxCliMod() string {
 
 	files, err := os.ReadDir(cliPath)
 	if err != nil {
-		return filepath.Join(gopath, "src", "github.com", "limes-cloud", "kratosx", "cmd", "kratosx")
+		return filepath.Join(gopath, "src", "github.com", "gyq14", "kratosx", "cmd", "kratosx")
 	}
 
 	var lastKratosxDir string

@@ -25,9 +25,9 @@ func TestRepo(t *testing.T) {
 		// [user@]host.xz:/~[user]/path/to/repo.git/
 		"git@github.com:go-kratos/kratos.git",
 		// /path/to/repo.git/
-		"//github.com/limes-cloud/kratos.git",
+		"//github.com/gyq14/kratosx.git",
 		// file:///path/to/repo.git/
-		"file://./github.com/limes-cloud/kratos.git",
+		"file://./github.com/gyq14/kratosx.git",
 	}
 	for _, url := range urls {
 		dir := repoDir(url)
@@ -42,7 +42,7 @@ func TestRepoClone(t *testing.T) {
 	if err := r.Clone(context.Background()); err != nil {
 		t.Fatal(err)
 	}
-	if err := r.CopyTo(context.Background(), "/tmp/test_repo", "github.com/limes-cloud/kratos-layout", nil); err != nil {
+	if err := r.CopyTo(context.Background(), "/tmp/test_repo", "github.com/gyq14/kratosx-layout", nil); err != nil {
 		t.Fatal(err)
 	}
 	t.Cleanup(func() {
